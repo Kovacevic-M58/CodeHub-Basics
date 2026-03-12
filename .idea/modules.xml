@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Arrays/Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CamelCase/CamelCase.iml" filepath="$PROJECT_DIR$/CamelCase/CamelCase.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/CodeHub-Basics.iml" filepath="$PROJECT_DIR$/.idea/CodeHub-Basics.iml" />
       <module fileurl="file://$PROJECT_DIR$/Palindrome/Palindrome.iml" filepath="$PROJECT_DIR$/Palindrome/Palindrome.iml" />
     </modules>
