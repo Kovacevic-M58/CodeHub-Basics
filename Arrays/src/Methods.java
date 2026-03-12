@@ -1,17 +1,13 @@
 /*Arrays methods*/
-public class Methods {
-    /*Returning the value at the selected index*/
-    public static int returnValueAtIndex(int[] arr, int index) {
-        /*Returns the value at the selected index*/
+class Methods {
+
+    public int getValueAtIndex(int[] arr, int index) {
         return arr[index];
     }
 
-    /*Prints all values from an array*/
-    public static void returnAllValues(int[] arr) {
-        /*for loop*/
+    public void printValues(int[] arr) {
         for(int i = 0; i < arr.length; i++) {
             System.out.print(i+1 + ". element of the array is: " + arr[i]);
-            /*Makes the output look better*/
             if(i == arr.length - 1)
                 System.out.println("; ");
             else
@@ -19,21 +15,17 @@ public class Methods {
         }
     }
 
-    /*Returns the sum of all values of the array*/
-    public static int returnSumOfAllValues(int[] arr){
-        int sum = 0; //define sum
-        /*I had a warning which said that i can replace the for loop with the
-        * enhanced one, so i replaced it with this for loop*/
+    public int sumValues(int[] arr){
+        int sum = 0;
+
         for (int j : arr) {
             sum += j;
         }
-
         return sum;
     }
 
-    /*Return the elements on even positions*/
-    public static int[] returnEvenElements(int[] arr){
-        int size; //new array size
+    public int[] getEvenElements(int[] arr){
+        int size;
         /*Determening if the array size is even or uneven*/
         if(arr.length%2 == 1)
             size = (arr.length - 1) / 2;
@@ -54,10 +46,9 @@ public class Methods {
         return evenArr;
     }
 
-    /*Prints out the elements which are bigger than average*/
-    public static int[] returnBiggerThanAverage(int[] arr){
+    public int[] getBiggerThanAverage(int[] arr){
         double avg;
-        int sum = returnSumOfAllValues(arr);
+        int sum = sumValues(arr);
         avg = (double) sum / arr.length;
         int j = 0;
         for(int i = 0; i < arr.length; i++) {
@@ -66,7 +57,6 @@ public class Methods {
         }
 
         int[] biggerArray = new int[j];
-
         j = 0;
         for(int i = 0; i < arr.length; i++) {
             if (arr[i] > avg){
@@ -78,9 +68,7 @@ public class Methods {
         return biggerArray;
     }
 
-
-    /*Returns a reversed array*/
-    public static int[] returnReversed(int[] arr) {
+    public int[] reverseArray(int[] arr) {
         int helper;
         int j = arr.length - 1;
         for (int i = 0; i < arr.length/2; i++){
@@ -92,8 +80,7 @@ public class Methods {
         return arr;
     }
 
-    /*Swap every two elements of the array*/
-    public static int[] returnSwappedElement(int[] arr) {
+    public int[] getSwappedElements(int[] arr) {
         int helper;
         int i = 0;
         while(i < arr.length -1){
@@ -105,8 +92,7 @@ public class Methods {
         return arr;
     }
 
-    /*Sorts an array*/
-    public static void sortArray(int arr[]){
+    public void sortArray(int arr[]){
         int helper;
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr.length; j++) {
@@ -118,4 +104,5 @@ public class Methods {
             }
         }
     }
+
 }
