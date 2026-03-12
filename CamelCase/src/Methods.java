@@ -9,7 +9,7 @@ class Methods {
         }
 
         return numberOfWords;
-        
-        scanner.close();
+
+
     }
 }
