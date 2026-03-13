@@ -9,9 +9,9 @@ public class Main {
         System.out.print("Enter your word: ");
         String s = scanner.nextLine();
 
-        Methods methods = new Methods();
+        CamelCase camelCase = new CamelCase();
 
-        System.out.println(methods.getNumberOfWords(s));
+        System.out.println(camelCase.getNumberOfWords(s));
 
         scanner.close();
     }
