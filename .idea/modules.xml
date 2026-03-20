@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Arrays/Arrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/CamelCase/CamelCase.iml" filepath="$PROJECT_DIR$/CamelCase/CamelCase.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/CodeHub-Basics.iml" filepath="$PROJECT_DIR$/.idea/CodeHub-Basics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Maze/Maze.iml" filepath="$PROJECT_DIR$/Maze/Maze.iml" />
       <module fileurl="file://$PROJECT_DIR$/MinMaxSum/MinMaxSum.iml" filepath="$PROJECT_DIR$/MinMaxSum/MinMaxSum.iml" />
       <module fileurl="file://$PROJECT_DIR$/Palindrome/Palindrome.iml" filepath="$PROJECT_DIR$/Palindrome/Palindrome.iml" />
       <module fileurl="file://$PROJECT_DIR$/TwoDimensionalArrays/TwoDimensionalArrays.iml" filepath="$PROJECT_DIR$/TwoDimensionalArrays/TwoDimensionalArrays.iml" />
