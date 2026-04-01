@@ -1,5 +1,5 @@
 public class LinkedList {
-    private Node head;
+    protected Node head;
 
     public void add(double value){
         Node newNode = new Node(value);

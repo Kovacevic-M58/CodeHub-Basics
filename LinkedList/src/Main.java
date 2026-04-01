@@ -382,5 +382,55 @@ public class Main {
         list.printList();
 
         list.removeList();
+
+
+        /*Sorted Linked List*/
+        LinkedSortedList sortedList = new LinkedSortedList();
+
+        System.out.println("---------------------");
+        //Test case 1:
+        sortedList.add(10);
+        sortedList.add(9);
+        sortedList.add(8);
+        sortedList.add(7);
+        sortedList.add(6);
+        sortedList.add(5);
+        sortedList.add(4);
+        sortedList.add(3);
+        sortedList.add(2);
+        sortedList.add(1);
+
+        sortedList.printList();
+
+        sortedList.removeList();
+
+        //Test case 2:
+        sortedList.add(-1);
+        sortedList.add(0);
+        sortedList.add(-2);
+        sortedList.add(3);
+        sortedList.add(4);
+        sortedList.add(5);
+
+        sortedList.printList();
+
+        sortedList.removeList();
+
+        //Test case 3:
+        sortedList.add(100);
+        sortedList.add(4);
+        sortedList.add(-100);
+        sortedList.add(0);
+        sortedList.add(4);
+
+        sortedList.printList();
+        sortedList.removeList();
+
+        //Test case 4:
+        sortedList.add(0);
+        sortedList.add(0);
+        sortedList.add(5);
+
+        sortedList.printList();
     }
 }
